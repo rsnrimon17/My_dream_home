@@ -1,0 +1,129 @@
+*{margin:0;
+padding:0;}
+/*header start*/
+.header {
+    background-color:#FFFFFF ;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: white;
+}
+.wrapper {
+    width:90%;
+    margin:0 auto;
+}
+
+.header_wrapper {
+    overflow: hidden;
+    margin-top: 15px;
+    
+}
+
+.logo{
+    float:left;
+    width:3%;
+}
+.logo_p{
+  float: left;
+    width: 20%;
+    font-size: 33px;
+    padding: 5px;
+}
+
+.nav {
+    float:right;
+    width:70%;
+    margin-top: 20px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+   float: left; 
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 2px 24px;
+    font-size: 20px;
+    color:#425A72;
+}
+.nav ul li a:hover{
+    color:skyblue;
+}
+/*header end*/
+/*bannar start*/
+.banner {
+    background-image: url(../img/banner.jpg);
+    overflow: hidden;
+    min-height:500px;
+    background-size:cover;
+   background-position: center;
+}
+.banner_text {
+    width: 248px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #A5A2BB;
+    color: white;
+}
+.banner_text button{
+    background-color: #3F3A41;
+    padding: 8px 19px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15px;
+}
+/*banner end*/
+/*service start*/
+.service {
+    min-height:400px;
+    background-color: white;
+    overflow: hidden;
+    background-size: 90%;
+    margin: 0 auto;
+    
+}
+.content_wrapper {
+    
+}
+
+.content {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+.content h1{
+    font-family: arial;
+    text-align: center;
+    width: 60%;
+}
+.content img{
+    text-align: center;
+    width: 90%;
+}
+.content p{
+    text-align: justify;
+}
+.content button{
+    padding: 7px 21px;
+    margin: 10px 30px;
+    background-color:#466081;
+    border-radius: 10px;
+    text-align: center
+}
+.content button a {
+    padding-left: 30px;
+}
+/*service end*/
+/*footer1 start*/
+.footer1 p{
+    text-align: center;
+}
+/*footer1 end*/
+/*footer2 start*/
+.footer2_wrapper{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 50px;
+}
+/*footer2 end*/
